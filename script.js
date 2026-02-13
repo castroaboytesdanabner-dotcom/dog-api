@@ -59,7 +59,7 @@ function renderGallery(images) {
 }
 
 // ESCUCHADOR DE EVENTOS
-// Buena práctica: Esperar a que el HTML cargue completamente (aunque poner el script al final ayuda)
 document.addEventListener('DOMContentLoaded', () => {
     btnLoad.addEventListener('click', fetchDogs);
+
 });
